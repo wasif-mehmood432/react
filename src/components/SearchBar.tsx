@@ -38,7 +38,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto">
+    <div className="w-full max-w-4xl mx-auto text-black">
       {/* Mobile Search */}
       <div className="md:hidden space-y-4">
         <div className="relative">

@@ -19,10 +19,9 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-red-500 to-pink-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">S</span>
+            <div className="w-20 h-20 flex items-center justify-center">
+              <img src="/logo.svg" />
             </div>
-            <span className="text-xl font-bold text-gray-900">ServiceConnect</span>
           </Link>
 
           {/* Navigation */}
@@ -30,9 +29,13 @@ const Header = () => {
             <Link to="/" className="text-gray-700 hover:text-red-600 transition-colors">
               Home
             </Link>
+            <Link to="/services" className="text-gray-700 hover:text-red-600 transition-colors">
+              Services
+            </Link>
             <Link to="/faq" className="text-gray-700 hover:text-red-600 transition-colors">
               FAQ
             </Link>
+
           </nav>
 
           {/* Auth Buttons */}
